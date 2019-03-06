@@ -1,0 +1,56 @@
+<LinearLayout
+    android:id="@+id/fondoPrincipal"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/lime"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/nombreDelJuego"
+        android:layout_width="189dp"
+        android:layout_height="277dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/titulo" />
+
+    <Button
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/red"
+        android:id="@+id/btnJugar"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=" JUGAR "
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/light_green"
+        android:id="@+id/btnAdministrarJugadores"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=" Administrar Jugadores "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/light_purple"
+        android:id="@+id/btnAyuda"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text=" Ayuda "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>

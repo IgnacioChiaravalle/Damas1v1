@@ -1,0 +1,35 @@
+<LinearLayout
+    android:id="@+id/fondoJuego"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/lime"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="outsideInset">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadeScrollbars="false"
+            android:scrollbarStyle="outsideInset">
+
+            <GridLayout
+                android:id="@+id/glTablero"
+                android:background="@drawable/bordes_redondeados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </GridLayout>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+</LinearLayout>

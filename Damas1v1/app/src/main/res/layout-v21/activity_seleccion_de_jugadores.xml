@@ -1,0 +1,95 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/lime"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvSeleccionarJugadores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="28dp"
+        android:text="Seleccione los Jugadores\npara la Partida"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="  Jugador para las Piezas Blancas:  "
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/white"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerJugadores1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="  Jugador para las Piezas Marrones:  "
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/brown"/>
+
+    <Spinner
+        android:id="@+id/spinnerJugadores2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:id="@+id/tvJugadoresInvalidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="No puede elegirse al mismo\njugador dos veces."
+        android:textAlignment="center"
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/red"/>
+
+    <Button
+        android:id="@+id/btnIrASeleccionDeTablero"
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:text="Seleccionar el\nTipo de Tablero"
+        android:padding="5dp"/>
+
+    <Button
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/red"
+        android:id="@+id/btnAtrasJugadores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:text=" Atrás "
+        android:textSize="20dp" />
+</LinearLayout>

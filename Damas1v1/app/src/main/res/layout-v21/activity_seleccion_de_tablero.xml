@@ -1,0 +1,55 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/fondoSeleccionTablero"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lime"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="Seleccione el tipo de Tablero a utilizar:"/>
+
+    <Button
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/cyan"
+        android:id="@+id/btn8x8"
+        android:layout_width="254dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="  8 x 8  "
+        android:textSize="30dp"/>
+
+    <Button
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/cyan"
+        android:id="@+id/btn10x10"
+        android:layout_width="257dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text=" 10 x 10 "
+        android:textSize="30dp"/>
+
+    <Button
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/red"
+        android:id="@+id/btnAtrasTablero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:text=" Atrás "
+        android:textSize="20dp" />
+
+
+</LinearLayout>

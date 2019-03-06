@@ -1,0 +1,33 @@
+<LinearLayout
+    android:id="@+id/fondoFinDelJuego"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <TextView
+        android:id="@+id/tvTextoFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center_horizontal"/>
+    
+    <Button
+        android:id="@+id/btnVolverAlInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/red"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Volver al\nMenú Inicial"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+    
+</LinearLayout>

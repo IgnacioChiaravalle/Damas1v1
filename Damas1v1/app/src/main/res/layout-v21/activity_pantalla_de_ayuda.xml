@@ -1,0 +1,106 @@
+<LinearLayout
+    android:id="@+id/fondoAyuda"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_pink"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvTituloAyuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MANUAL DE INSTRUCCIONES"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:layout_gravity="left"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="outsideInset">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Inicio de la Partida en la Aplicación:"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="left"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inicio_de_partida_en_la_aplicacion"
+                    android:textSize="18dp"
+                    android:layout_gravity="left"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Administración de Jugadores:"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="left"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/administración_de_jugadores"
+                    android:textSize="18dp"
+                    android:layout_gravity="left"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reglamento:"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="left"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reglamento"
+                    android:textSize="18dp"
+                    android:layout_gravity="left"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cómo Jugar en la Aplicación:"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="left"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/como_jugar_en_la_aplicacion"
+                    android:textSize="18dp"
+                    android:layout_gravity="left"/>
+
+            </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:background="@drawable/bordes_redondeados"
+        android:backgroundTint="@color/red"
+        android:id="@+id/btnAtrasAyuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:text=" Atrás "
+        android:textSize="20dp" />
+
+</LinearLayout>

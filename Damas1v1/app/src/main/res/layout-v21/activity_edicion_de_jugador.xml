@@ -1,0 +1,168 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/light_purple"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/etNombreJugador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvPartidasJugadas"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvPromedioDeVictorias"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvVictorias"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tvEmpates"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/tvDerrotas"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSumarVictoria"
+            android:background="@drawable/bordes_redondeados"
+            android:backgroundTint="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:textSize="18dp"
+            android:text="Sumar\nVictoria"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:id="@+id/btnSumarEmpate"
+            android:background="@drawable/bordes_redondeados"
+            android:backgroundTint="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:textSize="18dp"
+            android:text="Sumar\nEmpate"
+            android:layout_gravity="center"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"/>
+
+        <Button
+            android:id="@+id/btnSumarDerrota"
+            android:background="@drawable/bordes_redondeados"
+            android:backgroundTint="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:textSize="18dp"
+            android:text="Sumar\nDerrota"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnQuitarVictoria"
+            android:background="@drawable/bordes_redondeados"
+            android:backgroundTint="@color/cyan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:textSize="18dp"
+            android:text="Quitar\nVictoria"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:id="@+id/btnQuitarEmpate"
+            android:background="@drawable/bordes_redondeados"
+            android:backgroundTint="@color/cyan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:textSize="18dp"
+            android:text="Quitar\nEmpate"
+            android:layout_gravity="center"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"/>
+
+        <Button
+            android:id="@+id/btnQuitarDerrota"
+            android:background="@drawable/bordes_redondeados"
+            android:backgroundTint="@color/cyan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:textSize="18dp"
+            android:text="Quitar\nDerrota"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:background="@drawable/bordes_redondeados"
+            android:backgroundTint="@color/green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:textSize="25dp"
+            android:text="Guardar Cambios\ny Volver"
+            android:layout_gravity="left"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
